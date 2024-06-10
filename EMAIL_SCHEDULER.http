@@ -1,0 +1,14 @@
+### POST
+POST http://localhost:5000/send_emails
+Content-Type: application/json
+
+{
+  "event_id": 10000,
+  "email_subject": "this is subject email",
+  "email_content": "this is email content",
+  "timestamp": "2023-06-08 18:20:40.166218"
+}
+
+
+### GET
+GET http://localhost:5000/get_emails
